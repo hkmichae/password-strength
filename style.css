@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,4 +10,15 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.background {
+    background: url('https://i.natgeofe.com/n/d2b53cf0-0f5d-45f9-9ee0-65332e16fbdd/Neuschwanstein-castle-winter_16x9.jpg?w=1200') no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px);
 }
